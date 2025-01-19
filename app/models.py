@@ -1,6 +1,7 @@
 from sqlalchemy import Column, Integer, String, Date, ForeignKey, Table
 from sqlalchemy.orm import relationship
-from .database import Base
+from app.database import Base
+from datetime import date
 
 
 book_author = Table(
